@@ -64,7 +64,10 @@ class testcase {
                 System.out.printf("%5d +",original_values[addends[i][j]]);
                 mysum += original_values[addends[i][j]];
             }
-            System.out.printf("%5d = %5d(%d)\n", original_values[addends[i][j]], mysum, sums[i]);
+            System.out.printf("%5d = %5d / %5d\n",
+                              original_values[addends[i][j]],
+                              mysum + original_values[addends[i][j]],
+                              sums[i]);
         }
     }
 
