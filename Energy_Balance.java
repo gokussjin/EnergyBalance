@@ -59,10 +59,12 @@ class testcase {
     public void printRules() {
         for (int i = 0; i < addends.length; i++) {
             int j = 0;;
+            int mysum = 0;
             for (; j < addends[i].length - 1; j++) {
                 System.out.printf("%5d +",original_values[addends[i][j]]);
+                mysum += original_values[addends[i][j]];
             }
-            System.out.printf("%5d =%5d\n", original_values[addends[i][j]], sums[i]);
+            System.out.printf("%5d = %5d(%d)\n", original_values[addends[i][j]], mysum, sums[i]);
         }
     }
 
