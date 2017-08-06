@@ -1,0 +1,12 @@
+# values, original complete problem, with scrambled input (bottom-up and right-left), rule orders diff (5th and 12th moved to 2nd and 3rd)
+-6,4,-1,5,-4,-7,0,7,-8,8,6,8,0,-6,-5
+# addends
+0,1,2
+5,6,7,8,9
+12,13,14
+0,3,5
+2,4,7,10,12
+9,11,14
+# sums
+0,3,0,7,-8,4
+# answer:

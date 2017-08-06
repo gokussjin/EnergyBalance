@@ -1,0 +1,15 @@
+# values, original complete problem, with scrambled input (bottom-up and right-left), rule orders diff (5th and 12th moved to 2nd and 3rd)
+-10,-25,0,4,9,0,12,0,5,-19,34,3,-12,-18,20,2,-15,-16,29,16,-4,-21,-32,27,0,1,-25
+# addends
+0,7
+0,1,2,3,4
+5,6,7
+8,9,10
+14,15,16,17,18
+21,22,23
+24,25,26
+6,11,13,19,22
+4,9,12,17,20,25
+# sums
+-48,-28,-39,-31,29,32,27,30,-8
+# answer:
