@@ -174,12 +174,12 @@ public class Energy_Balance {
         (18/15)
 
         Then the parameters are:
-        original_values = {3, 1, 3, 7, 9}
-        addends = {{0, 1, 2}, {0, 3, 4}}
+        original_values = {-2,-5,-7,7,2,7,3,-5,-4,0,6,4,-7,-3,-2,8,4,0,-1,1,4,-8,-1,1,4}
+        addends = {{0, 1, 2,3,4},{5,6,7,8,9},{10,11,12,13,14},{15,16,17,18,19},{20,21,22,23,24},{0,5,10,15,20},{1,6,11,16,21},{2,7,12,17,22},{3,8,13,18,23},{4,9,14,19,24}}
         (These indicate which indices add to column/row sums.
         Note 0 is shared in this example.)
 
-        sums = {11, 15}
+        sums = {-5,1,-6,1,15,23,-2,-4,-12,1}
         (Make sure the order matches the order of your entries of addends).
 
         The output is
